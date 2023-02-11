@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+body{
+    /*background-image: url("./images/974936.jpg");*/
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace, sans-serif;
+}
+h1{
+    font-size: 1.3rem;
+}
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-page {
+    padding: 3rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 30rem;
+}
+.input {
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+
+}
+.input + button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.all-user-table {
+    background-color: white;
+    display: grid;
+}
+.table-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 50rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+.grid-item {
+    overflow: hidden;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.back-button {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    align-self: flex-start;
+    padding: 1rem;
+    text-align: center;
+}
+.table-header {
+    color: white;
+}
